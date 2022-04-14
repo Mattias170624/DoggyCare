@@ -1,0 +1,61 @@
+#homePage {
+    background-image: url(../Images/homeImage.jpg);
+    background-color: lightgreen;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+}
+
+#homePageText {
+    width: fit-content;
+    position: relative;
+    top: 30%;
+    margin-right: auto;
+    padding-left: 5rem;
+}
+
+#homePageText h1 {
+    font-size: 5rem;
+    padding: 0 1rem;
+    border-bottom: 5px #fa7e70 solid;
+    display: inline-flex;
+    width: fit-content;
+}
+
+#homePageText p {
+    font-size: 1.5rem;
+    padding: 0 1rem;
+    padding-top: 1rem;
+}
+
+@media screen and (max-width: 1000px) {
+
+    #homePageText {
+        margin-left: auto;
+        padding-left: 0rem;
+    }
+
+    #homePageText h1 {
+        font-size: 4rem;
+    }
+
+    #homePageText p {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    #homePageText h1 {
+        font-size: 2rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #homePageText p {
+        font-size: 1.25rem;
+        text-align: center;
+    }
+}
