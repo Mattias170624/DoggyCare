@@ -22,6 +22,14 @@ function App() {
               <div>
                 <Header />
                 <DogList />
+                <Footer />
+              </div>
+            } />
+            <Route exact path="/contact" element={
+              <div>
+                <Header />
+
+                <Footer />
               </div>
             } />
           </Routes>

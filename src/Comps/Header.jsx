@@ -1,15 +1,13 @@
-import { Link } from 'react-router-dom'
-import "../CompStyles/header.css"
+import NormalNav from './NormalNav';
+import MobileNav from './MobileNav';
+import "../CompStyles/header.css";
 
 const Header = () => {
     return (
         <div id="header">
-            <nav>
-                <Link to="/" > Home </Link>
-
-                <Link to="/dogList" > Dogs </Link>
-
-                <Link to="/dogList" > Contact </Link>
+            <nav id='linkContainer'>
+                <NormalNav />
+                <MobileNav />
             </nav>
         </div>
     );

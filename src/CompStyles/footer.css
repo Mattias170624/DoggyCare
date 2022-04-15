@@ -1,3 +1,49 @@
 #footer {
-    background-color: lightcoral;
+    background-color: #282C34;
+    width: 100%;
+    height: fit-content;
+}
+
+#footerTextContainer {
+    padding: 4rem 0;
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    word-wrap: break-word;
+}
+
+.footerText {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    word-wrap: break-word;
+    overflow: hidden;
+    white-space: pre-line;
+    text-align: center;
+}
+
+.footerText h2 {
+    color: #FA8072;
+}
+
+@media screen and (max-width: 600px) {
+
+    #footerTextContainer {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 0;
+    }
+
+    .footerText {
+        padding: 1rem 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .footerText {
+        font-size: 0.8rem;
+    }
 }
