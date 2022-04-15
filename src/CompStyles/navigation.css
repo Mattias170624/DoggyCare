@@ -1,0 +1,52 @@
+.links {
+    font-size: 2.5rem;
+    padding: 0 2rem;
+    margin: 0 4rem;
+    text-decoration: none;
+    display: block;
+}
+
+#normalNav {
+    display: flex;
+}
+
+#mobileNav {
+    display: none;
+    background-color: orange;
+}
+
+.hamburger {
+    display: none;
+}
+
+@media (max-width: 600px) {
+
+    #normalNav {
+        display: none;
+    }
+
+    #mobileNav {
+        display: flex;
+        align-items: center;
+    }
+
+    #mobileNav a {
+        text-align: end;
+        font-size: 2rem;
+    }
+
+    #mobileLinkContainer {
+        position: absolute;
+        top: 4.5rem;
+        right: 0;
+        background-color: rgb(40, 44, 52, 0.8);
+        border-radius: 0 0px 0 20px;
+    }
+
+    .hamburger {
+        display: flex;
+        position: absolute;
+        right: 5%;
+        margin-top: 2rem;
+    }
+}
