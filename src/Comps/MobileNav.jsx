@@ -19,7 +19,7 @@ const MobileNav = () => {
             {open && <div id='mobileLinkContainer'>
                 <Link to="/" className='links' > Home </Link>
                 <Link to="/dogList" className='links' > Dogs </Link>
-                <Link to="/dogList" className='links' > Contact </Link>
+                <Link to="/contact" className='links' > Contact </Link>
             </div>}
         </section>
     );
