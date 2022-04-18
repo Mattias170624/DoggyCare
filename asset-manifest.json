@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/DoggyCare/static/css/main.667d8eed.css",
+    "main.js": "/DoggyCare/static/js/main.c833743c.js",
+    "static/js/787.fcc63538.chunk.js": "/DoggyCare/static/js/787.fcc63538.chunk.js",
+    "static/media/homeImage.jpg": "/DoggyCare/static/media/homeImage.87c341853a35f04174aa.jpg",
+    "static/media/dogListImage.jpg": "/DoggyCare/static/media/dogListImage.97f92040d9b61aea76ff.jpg",
+    "static/media/contactBackground.jpg": "/DoggyCare/static/media/contactBackground.3e3ac3fe4fcba04688ea.jpg",
+    "index.html": "/DoggyCare/index.html",
+    "main.667d8eed.css.map": "/DoggyCare/static/css/main.667d8eed.css.map",
+    "main.c833743c.js.map": "/DoggyCare/static/js/main.c833743c.js.map",
+    "787.fcc63538.chunk.js.map": "/DoggyCare/static/js/787.fcc63538.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.667d8eed.css",
+    "static/js/main.c833743c.js"
+  ]
+}
