@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/doggycare/static/css/main.5197aece.css",
-    "main.js": "/doggycare/static/js/main.b8c289ea.js",
-    "static/js/787.fcc63538.chunk.js": "/doggycare/static/js/787.fcc63538.chunk.js",
-    "static/media/homeImage.jpg": "/doggycare/static/media/homeImage.87c341853a35f04174aa.jpg",
-    "static/media/dogListImage.jpg": "/doggycare/static/media/dogListImage.97f92040d9b61aea76ff.jpg",
-    "static/media/contactBackground.jpg": "/doggycare/static/media/contactBackground.3e3ac3fe4fcba04688ea.jpg",
-    "index.html": "/doggycare/index.html",
-    "main.5197aece.css.map": "/doggycare/static/css/main.5197aece.css.map",
-    "main.b8c289ea.js.map": "/doggycare/static/js/main.b8c289ea.js.map",
-    "787.fcc63538.chunk.js.map": "/doggycare/static/js/787.fcc63538.chunk.js.map"
+    "main.css": "/static/css/main.7085b657.css",
+    "main.js": "/static/js/main.39cc09b0.js",
+    "static/js/787.fcc63538.chunk.js": "/static/js/787.fcc63538.chunk.js",
+    "static/media/homeImage.jpg": "/static/media/homeImage.87c341853a35f04174aa.jpg",
+    "static/media/dogListImage.jpg": "/static/media/dogListImage.97f92040d9b61aea76ff.jpg",
+    "static/media/contactBackground.jpg": "/static/media/contactBackground.3e3ac3fe4fcba04688ea.jpg",
+    "index.html": "/index.html",
+    "main.7085b657.css.map": "/static/css/main.7085b657.css.map",
+    "main.39cc09b0.js.map": "/static/js/main.39cc09b0.js.map",
+    "787.fcc63538.chunk.js.map": "/static/js/787.fcc63538.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5197aece.css",
-    "static/js/main.b8c289ea.js"
+    "static/css/main.7085b657.css",
+    "static/js/main.39cc09b0.js"
   ]
 }
